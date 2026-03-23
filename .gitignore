@@ -1,0 +1,24 @@
+# Database data - không push dữ liệu thật lên git
+supabase-config/volumes/db/data/
+
+# Storage files
+supabase-config/volumes/storage/
+
+# Logs
+supabase-config/volumes/logs/
+
+# Deno cache
+supabase-config/volumes/functions/.cache/
+
+# File credentials thật - bảo mật
+credentials.txt
+
+# File .env thật - chứa secrets
+supabase-config/.env
+
+# Supabase source clone (nặng, không cần)
+supabase-src/
+
+# OS
+.DS_Store
+Thumbs.db
